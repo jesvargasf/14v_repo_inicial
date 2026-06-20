@@ -1,3 +1,4 @@
+# Configuración de usuarios
 git config --global user.name "Jesús"
 git config --global user.email "jes.vargasf@profesor.duoc.cl"
 
