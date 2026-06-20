@@ -1,0 +1,18 @@
+# Inicializa el repositorio en la carpeta actual
+git init
+
+# Entrega un estado del repositorio actual
+git status
+
+# añade un cambio realizado al repositorio
+git add nombre_archivo
+git add .
+
+# Crea una nueva versión (commit)
+git commit -m "mensaje"
+
+# Crea la rama principal a publicar en github
+git branch -M main
+
+# Publica el cambio en el remoto
+git push -u origin main
